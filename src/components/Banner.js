@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import headerImg from "../assets/img/profile.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Data Scientist", "Data Analyst" ];
+  const toRotate = [ "Scientist", "Analyst" ];
   const period = 2000;
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Abdullah a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Scientist", "Data Analyst" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Abdullah a Data `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Scientist", "Analyst" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I'm focused on leveraging advanced AI and data analysis to drive business growth. I specialize in transforming complex datasets into actionable insights, optimizing strategies, and forecasting key metrics to support data-driven decision-making. My expertise in Machine Learning enables me to develop predictive models, enhance customer segmentation, and streamline operations with intelligent automation. I help businesses uncover hidden opportunities, improve performance, and achieve their goals through innovative, data-powered solutions.</p>
                   <Button
                     style={{
@@ -74,7 +74,7 @@ export const Banner = () => {
                       e.target.style.backgroundColor = "#e31bcf";
                       e.target.style.borderColor = "#e31bcf";
                     }}
-                    href="https://docs.google.com/document/d/1CaCilGi21X6FhR_UL8C14c5wqQTVG-W_"
+                    href="https://docs.google.com/document/d/1_1tkH33oggXdtNtLS1ek_hHgC8YEHGkb/edit?usp=sharing&ouid=114996828737559694387&rtpof=true&sd=true"
                     target="_blank"
                     rel="noopener noreferrer">
                     View My Resume

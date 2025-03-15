@@ -42,7 +42,7 @@ export const Skills = () => {
                 <div className="item" style={{ textAlign: "center" }}>
                   <FaCode size={40} style={{ color: "#ffd700" }} />
                   <h5 style={{ margin: "15px 0", color: "#fff" }}>Programming Languages</h5>
-                  <p style={{ color: "#bbb" }}>Python, R, SQL</p>
+                  <p style={{ color: "#bbb" }}>Python, R, TypeScript, SQL</p>
                 </div>
                 <div className="item" style={{ textAlign: "center" }}>
                   <FaRobot size={40} style={{ color: "#00bfff" }} />
@@ -77,7 +77,7 @@ export const Skills = () => {
                   <FaCloud size={40} style={{ color: "#1e90ff" }} />
                   <h5 style={{ margin: "15px 0", color: "#fff" }}>Cloud Services</h5>
                   <p style={{ color: "#bbb" }}>
-                    BigQuery, Amazon SageMaker, Azure Databricks, S3 bucket, Amazon Redshift
+                    BigQuery, Azure Databricks, Azure AI Services, Azure Machine Learning, S3 bucket, Amazon Redshift
                   </p>
                 </div>
               </Carousel>

@@ -300,6 +300,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+
+
+/************ Experience Css ************/
+.experience {
+  padding: 80px 0;
+  position: relative;
+  background-color: black;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.experience .experience-bx {
+  background: #151515;
+  border-radius: 20px;
+  text-align: left;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.experience .experience-bx h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.experience .experience-bx p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+
+.experience .experience-bx h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.experience .experience-bx ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #B8B8B8;
+}
+
+.experience .experience-bx ul li {
+  margin-bottom: 10px;
+}
+
+.experience .experience-bx ul li strong {
+  color: #fff;
+}
+
+
+
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;

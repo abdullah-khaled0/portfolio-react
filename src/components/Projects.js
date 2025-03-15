@@ -1,8 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,6 +9,20 @@ export const Projects = () => {
 
 
   const DS_projects = [
+    {
+      title: "Advanced Retail Analytics using Excel and Python",
+      description:
+        "This project analyzes key performance indicators (KPIs) across sales, marketing, product, and customer.",
+      imgUrl: "https://github.com/abdullah-khaled0/Advanced-Retail-Analytics-using-Excel-and-Python/raw/main/Customer_KPIs.png",
+      linkUrl: "https://github.com/abdullah-khaled0/Advanced-Retail-Analytics-using-Excel-and-Python",
+    },
+    {
+      title: "Customer Segmentation",
+      description:
+        "Segmented customers based on demographic, income, spending, and behavior data to enhance marketing personalization. Used clustering techniques like K-means and hierarchical methods.",
+      imgUrl: "https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2022_06_CUSTOMER-SEGMENTATION-1.jpg",
+      linkUrl: "https://www.kaggle.com/code/abdullah7aled/customer-segmentation",
+    },
     {
       title: "Stock Price Forecasting",
       description:
@@ -73,27 +85,6 @@ export const Projects = () => {
         "",
       imgUrl: "https://github.com/abdullah0150/Images/raw/main/images/project-1.png",
       linkUrl: "https://github.com/abdullah-khaled0/Credit-Fraud-Detector",
-    },
-    {
-      title: "Chatbot with Gemini",
-      description:
-        "A robust FastAPI application leveraging LangChain, Google Generative AI, and FAISS for document-based question answering. The app retrieves information from a GitHub-hosted document to answer user queries in a verbose and detailed manner. It is integrated with a Flutter app for seamless user interaction.",
-      imgUrl: 'https://github.com/abdullah-khaled0/chatbot-with-Gemini-Railway/raw/main/demo_gif.gif',
-      linkUrl: "https://github.com/abdullah-khaled0/chatbot-with-Gemini-Railway",
-    },
-    {
-      title: "CashierBot for Restaurants",
-      description:
-        "An AI-powered chatbot built with Rasa to streamline order placement, table reservations, and menu browsing for restaurants. Designed to handle customer interactions smoothly and efficiently, this bot uses natural language understanding (NLU) to provide a seamless user experience.",
-      imgUrl: "https://github.com/abdullah-khaled0/CashierBot-with-Rasa-open-source/raw/main/demo_gif.gif",
-      linkUrl: "https://github.com/abdullah-khaled0/CashierBot-with-Rasa-open-source",
-    },
-    {
-      title: "Quiz Generator",
-      description:
-        "This project is a FastAPI-based application that generates multiple-choice quizzes from the content of uploaded PDF files. It is deployed on Railway and integrates seamlessly with a Flutter App for an enhanced user experience. The app leverages LangChain, Google Generative AI, and FAISS for natural language processing, embeddings, and vector-based document retrieval.",
-      imgUrl: "https://github.com/abdullah-khaled0/Exam-Generator/raw/main/demo.gif",
-      linkUrl: "https://github.com/abdullah-khaled0/Exam-Generator",
     },
 
   ];
@@ -186,7 +177,49 @@ export const Projects = () => {
     },
   ];
   
-  const SE_projects = [
+  const AI_SE_projects = [
+    {
+      title: "Hotels AI Agent",
+      description:
+        "A Flask-based web application leveraging CrewAI-powered AI agents to optimize hotel operations, including room reservations, guest management, and hotel details tracking.",
+      imgUrl: 'https://camo.githubusercontent.com/f69c989e9406aaa97dbd5767eae89ba5906d9631ae65d8f477639f83bdd23bca/68747470733a2f2f6b6e6f776d61782d61692d776562736974652e73332e616d617a6f6e6177732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032322f30312f31343132313035352f6b6e6f776c656467652d6d616e6167656d656e742d666f722d63686174626f742d66756e6374696f6e696e672d312e706e67',
+      linkUrl: "https://www.linkedin.com/posts/abdullah-khaled-0608a9236_%D8%B9%D9%85%D9%84%D8%AA-ai-agent-%D8%AA%D9%82%D8%AF%D8%B1-%D8%AA%D8%AF%D8%B1%D8%AF%D8%B4-%D9%85%D8%B9%D8%A7%D9%87-%D9%83-chatbot-%D9%88%D8%A7%D9%84%D9%81%D9%83%D8%B1%D8%A9-activity-7304849359987208192--g0b?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrdZwgBeRZJui8GXBIdXTsTid0ZnVsQCT0",
+    },
+    {
+      title: "AI-Powered Search and Recommendation-System",
+      description:
+        "A FastAPI-powered application that generates Firestore query expressions based on user input using LangChain and Google Gemini AI. The generated expressions can then be used dynamically to fetch product IDs from Firestore.",
+      imgUrl: "https://github.com/abdullah-khaled0/AI-Powered-Search-and-Recommendation-System/raw/main/demo.gif",
+      linkUrl: "https://www.linkedin.com/posts/abdullah-khaled-0608a9236_ai-fastapi-flutter-activity-7293641319397122048-jmWt?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrdZwgBeRZJui8GXBIdXTsTid0ZnVsQCT0",
+    },
+    {
+      title: "SQL Agent",
+      description:
+        "This project provides an interactive Streamlit application that uses LangChain, LangGraph, and Ollama's Llama 3.2 to Generate and Execute SQL queries based on user input",
+      imgUrl: "https://github.com/abdullah-khaled0/SQL-Agent-with-Llama3.2.3B-Model/raw/main/sql_agent.gif",
+      linkUrl: "https://github.com/abdullah-khaled0/SQL-Agent-with-Llama3.2.3B-Model",
+    },
+    {
+      title: "Chatbot with Gemini",
+      description:
+        "A robust FastAPI application leveraging LangChain, Google Generative AI, and FAISS for document-based question answering. The app retrieves information from a GitHub-hosted document to answer user queries in a verbose and detailed manner. It is integrated with a Flutter app for seamless user interaction.",
+      imgUrl: 'https://github.com/abdullah-khaled0/chatbot-with-Gemini-Railway/raw/main/demo_gif.gif',
+      linkUrl: "https://www.linkedin.com/posts/doaa-safwat-794b72289_flutterdevelopment-aiintegration-geminiapi-ugcPost-7271984981520904192-_aM1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrdZwgBeRZJui8GXBIdXTsTid0ZnVsQCT0",
+    },
+    {
+      title: "CashierBot for Restaurants",
+      description:
+        "An AI-powered chatbot built with Rasa to streamline order placement, table reservations, and menu browsing for restaurants. Designed to handle customer interactions smoothly and efficiently, this bot uses natural language understanding (NLU) to provide a seamless user experience.",
+      imgUrl: "https://github.com/abdullah-khaled0/CashierBot-with-Rasa-open-source/raw/main/demo_gif.gif",
+      linkUrl: "https://github.com/abdullah-khaled0/CashierBot-with-Rasa-open-source",
+    },
+    {
+      title: "Quiz Generator",
+      description:
+        "This project is a FastAPI-based application that generates multiple-choice quizzes from the content of uploaded PDF files. It is deployed on Railway and integrates seamlessly with a Flutter App for an enhanced user experience. The app leverages LangChain, Google Generative AI, and FAISS for natural language processing, embeddings, and vector-based document retrieval.",
+      imgUrl: "https://github.com/abdullah-khaled0/Exam-Generator/raw/main/demo.gif",
+      linkUrl: "https://www.linkedin.com/posts/doaa-safwat-794b72289_flutterdevelopment-aiintegration-aimodel-ugcPost-7282006280301334530-D-yL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrdZwgBeRZJui8GXBIdXTsTid0ZnVsQCT0",
+    },
     {
       title: "FCAI App",
       description:
@@ -244,7 +277,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Data Analyst</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Software Engineer</Nav.Link>
+                      <Nav.Link eventKey="third">AI Software Engineer</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -279,7 +312,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <Row>
                         {
-                          SE_projects.map((project, index) => {
+                          AI_SE_projects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
